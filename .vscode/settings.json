@@ -11,11 +11,13 @@
         ".cache": true,
         ".classpath": true,
         ".project": true,
-        ".settings": true
+        ".settings": true,
+        "tools": true
     },
     "search.exclude": {
         "node_modules": true,
         "dist": true,
         "build": true
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
