@@ -10,3 +10,4 @@ mvn -B archetype:generate \
 ## Resources
 
 - http://www.baeldung.com/java-8-new-features
+- https://www.journaldev.com/2389/java-8-features-with-examples
