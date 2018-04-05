@@ -6,3 +6,7 @@ mvn -B archetype:generate \
     -DgroupId=wk \
     -DartifactId=java-syntax
 ```
+
+## Resources
+
+- http://www.baeldung.com/java-8-new-features
