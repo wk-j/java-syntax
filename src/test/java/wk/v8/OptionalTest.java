@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class OptionalTest {
+public class OptionalTest<NullReferenceException> {
 
     @Test
     public void emptyTest() {
@@ -25,5 +25,12 @@ public class OptionalTest {
         Optional<String> data = Optional.empty();
         String value = data.orElseGet(() -> "Hello");
         Assert.assertEquals("Hello", value);
+    }
+
+    @Test(expected = Exception.class)
+    public void orElseThrowTest() throws Exception {
+        String value = null;
+        Optional<String> valueOpt = Optional.ofNullable(value);
+        String result = valueOpt.orElseThrow(Exception::new).toUpperCase();
     }
 }
