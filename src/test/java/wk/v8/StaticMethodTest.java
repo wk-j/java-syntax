@@ -3,7 +3,7 @@ package wk.v8;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class InterfaceTest {
+public class StaticMethodTest {
     @Test
     public void staticMethod() {
         String a = Interface.producer();
