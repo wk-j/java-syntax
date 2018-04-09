@@ -11,3 +11,4 @@ mvn -B archetype:generate \
 
 - http://www.baeldung.com/java-8-new-features
 - https://www.journaldev.com/2389/java-8-features-with-examples
+- https://stackoverflow.com/questions/15496/hidden-features-of-java
