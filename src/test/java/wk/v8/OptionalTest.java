@@ -31,6 +31,6 @@ public class OptionalTest<NullReferenceException> {
     public void orElseThrowTest() throws Exception {
         String value = null;
         Optional<String> valueOpt = Optional.ofNullable(value);
-        String result = valueOpt.orElseThrow(Exception::new).toUpperCase();
+        valueOpt.orElseThrow(Exception::new).toUpperCase();
     }
 }
