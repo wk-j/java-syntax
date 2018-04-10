@@ -3,7 +3,6 @@ package wk.v8;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Stream;
-
 import org.junit.Assert;
 import org.junit.Test;
 
