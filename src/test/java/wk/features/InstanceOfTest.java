@@ -1,7 +1,5 @@
 package wk.features;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-
 import org.junit.Assert;
 import org.junit.Test;
 
