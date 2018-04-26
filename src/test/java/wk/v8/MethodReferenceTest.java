@@ -24,13 +24,6 @@ public class MethodReferenceTest {
     }
 
     @Test
-    public void testVar() {
-        var a = 100;
-        var b = 100;
-        Assert.assertEquals(a, b);
-    }
-
-    @Test
     public void constructorTest() {
         Collection<Integer> data = Arrays.asList(1, 2, 3, 4, 5);
         Stream<User> users = data.stream().map(User::new);
