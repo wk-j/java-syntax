@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "java-syntax",
+                "projectName": "java-syntax",
+                "workingDirectory": "/Users/wk/GitHub/JavaSyntax",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "java-syntax",
+                "projectName": "java-syntax",
+                "workingDirectory": "/Users/wk/GitHub/JavaSyntax",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
