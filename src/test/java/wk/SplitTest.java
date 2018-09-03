@@ -1,10 +1,20 @@
 package wk;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import org.junit.Test;
 
 public class SplitTest {
+    @Test
+    public void Split() {
+
+        String input = "a|b|c|d";
+        String[] parts = input.split("|");
+
+        assertNotEquals(4, parts.length);
+    }
+
     @Test
     public void splitTest() {
         String a = "aa|b|c";
