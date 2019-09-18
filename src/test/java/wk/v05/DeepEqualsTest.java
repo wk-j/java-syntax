@@ -1,4 +1,4 @@
-package wk.v5;
+package wk.v05;
 
 import java.util.Arrays;
 import org.junit.Assert;
