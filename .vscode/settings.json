@@ -24,5 +24,12 @@
         "dist": true,
         "build": true
     },
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-14",
+            "path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home",
+            "default": true
+        },
+    ]
 }

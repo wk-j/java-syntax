@@ -1,8 +1,11 @@
 ## Java Syntax
 
-```
-brew cask install java
-brew cask info java
+```bash
+brew tap AdoptOpenJDK/homebrew-openjdk
+brew cask install adoptopenjdk14
+/usr/libexec/java_home -V
+
+ export JAVA_HOME=(/usr/libexec/java_home -v 14.0.1)
 ```
 
 ```
@@ -10,10 +13,13 @@ mvn -B archetype:generate \
     -DarchetypeGroupId=org.apache.maven.archetypes \
     -DgroupId=wk \
     -DartifactId=java-syntax
+
+mvn compile
 ```
 
 ## Resources
 
+- https://www.techgeeknext.com/java/java14-features
 - https://blog.codefx.org/java/enable-preview-language-features
 - http://www.baeldung.com/java-8-new-features
 - https://www.journaldev.com/2389/java-8-features-with-examples
