@@ -3,12 +3,14 @@
 ```bash
 brew tap AdoptOpenJDK/homebrew-openjdk
 brew cask install adoptopenjdk14
+```
+
+```bash
 /usr/libexec/java_home -V
-
- export JAVA_HOME=(/usr/libexec/java_home -v 14.0.1)
+export JAVA_HOME=(/usr/libexec/java_home -v 14.0.1)
 ```
 
-```
+```bash
 mvn -B archetype:generate \
     -DarchetypeGroupId=org.apache.maven.archetypes \
     -DgroupId=wk \
